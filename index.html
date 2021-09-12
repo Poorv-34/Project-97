@@ -1,0 +1,45 @@
+<html>
+    <head>
+        <title>Kwitter</title>
+
+        <link href="https://fonts.googleapis.com/css?family=Yeon+Sung&display=swap" rel="stylesheet"><meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+        
+        <script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-app.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-firestore.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/live/3.1/firebase.js"></script>
+
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <script src="kwitter.js"></script>
+        </head>
+        <body>
+
+        <center>
+            <h1 class="header">
+                Kwitter <sup>
+                    <img src="https://th.bing.com/th/id/R.6070507b79ac15c3720d7cb564fe69f8?rik=rFhlSpFNYdb3MA&riu=http%3a%2f%2fwww.newdesignfile.com%2fpostpic%2f2009%2f07%2fphone-email-icons_249115.png&ehk=EjaIm4G6f9sokcpm%2fwPC%2fGurekDmpTyzN4LW3KSN4J0%3d&risl=&pid=ImgRaw&r=0">
+                </sup>
+            </h1>
+
+                <div class="col-lg-4 col-md-6 col-sm-8 col-xs-11 login_div">
+
+                    <img src="https://img.icons8.com/cotton/2x/twitter.png" class="logo">
+                    <h3>See what's happening around the world right now</h3>
+                    
+                    <h4>Join Kwitter today</h4>
+                    
+                    <div class="form-group">
+                        <label>User Name:</label>
+                        <input type="text" id="user_name" class="form-control" placeholder="User Name">
+                        </div>
+
+                        <button id="login_button" class="btn btn-primary" onclick="addUser()">Log in</button>
+                        <br><br>
+                    </div>
+                </center>
+
+                </body>
+                </html>
